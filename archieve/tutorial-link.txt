@@ -1,0 +1,4 @@
+1. https://www.geeksforgeeks.org/python/automate-renaming-and-organizing-files-with-python/
+2. https://www.geeksforgeeks.org/python/python-os-rename-method/
+3. https://www.geeksforgeeks.org/python/rename-multiple-files-using-python/
+4. https://www.geeksforgeeks.org/python/how-to-use-sys-argv-in-python/

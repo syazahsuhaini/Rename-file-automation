@@ -1,8 +1,7 @@
-# me
 # rename the timesheets into:
 # TIMESHEET SYAZA HAZWANI BINTI SUHAINI [MONTH] [YEAR] [WEEK] FIELDGLASS
 # each timesheet have their own ID. the bigger the ID, the later the dates
-# contant name: timesheet_MFCTSxxxxxxxx.pdf where xxxxxxxx is the changeable number in ID
+# constant name: timesheet_MFCTSxxxxxxxx.pdf where xxxxxxxx is the changeable number in ID
 
 # sort the files based on their name
 # then rename the files
@@ -11,10 +10,9 @@
 import os
 import sys
 
-def rename_timesheet(month, year):
+from data_path import timesheets_dir
 
-    # source files' path
-    timesheets_dir = "C:\\Users\\syaza\\Downloads\\timesheet"
+def rename_timesheet(month, year):
 
     # save the files name into a list then sort it based on their name
     files = []

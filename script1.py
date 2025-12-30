@@ -1,4 +1,3 @@
-# me
 # move the timesheet into timesheets folder
 
 # importing required modules
@@ -6,11 +5,15 @@ import os
 import sys
 from shutil import move
 
+from data_path import root_dir, timesheets_dir
+
 def move_timesheet():
 
-    # making the directories
-    root_dir = "C:\\Users\\syaza\\Downloads"
-    timesheets_dir = "C:\\Users\\syaza\\Downloads\\timesheet"
+    # making sure the folder exists
+    # parents=True means create all missing parent folders if doesnt exists
+    # exist_ok=True means if folder exists then do nothing
+    root_dir.mkdir(parents=True, exist_ok=True)
+    timesheets_dir.mkdir(parents=True, exist_ok=True)
 
     # files types of each category
     docs = ('.pdf')

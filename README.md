@@ -1,5 +1,5 @@
 # Rename-file-automation
-Auto rename file whenever system detect certain files are downloaded.
+A small automation tool using Python that will group certain downloaded files into their set folder and rename them to reduce manual file management.
 
 ## What this does and its current features ?
 This tool helps organize frequently downloaded files by:

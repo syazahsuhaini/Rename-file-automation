@@ -9,7 +9,7 @@ This tool helps organize frequently downloaded files by:
 
 It is designed for simple, repeatable workflows where file naming consistency matters.
 
-# How to run the script ?
+## How to run the script ?
 1. Open a terminal and navigate to the project directory
 2. For moving files into a folder, run: 
     ```bash 
@@ -18,10 +18,10 @@ It is designed for simple, repeatable workflows where file naming consistency ma
     ```bash
     python script2.py {month} {year}
 
-# Demo
+## Demo
 Video demonstration: https://youtu.be/ynXEx3kEoLs
 
-# Future improvement
+## Future improvement
 - Automatically detect month and year from file content
 - Add argument parsing for cleaner CLI usage
 - Combine scripts into a single CLI tool
